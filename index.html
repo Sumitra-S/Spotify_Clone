@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1" />
+                    <span class="songName">Jhim Jhimaune Aankha</span>
+                    <span class="songlistplay"><span class="timestamp">04:02
+                            <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2" />
+                    <span class="songName">Sana-Talloi</span>
+                    <span class="songlistplay"><span class="timestamp">04:00
+                            <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3" />
+                    <span class="songName">Stay With Me</span>
+                    <span class="songlistplay"><span class="timestamp">03:12
+                            <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4" />
+                    <span class="songName">Give Me Some Sunshine</span>
+                    <span class="songlistplay"><span class="timestamp">04:07
+                            <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5" />
+                    <span class="songName">Jashn-E-Bahaaraa</span>
+                    <span class="songlistplay"><span class="timestamp">05:20
+                            <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6" />
+                    <span class="songName">Parkha Na</span>
+                    <span class="songlistplay"><span class="timestamp">04:02
+                            <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7" />
+                    <span class="songName">Baby You</span>
+                    <span class="songlistplay"><span class="timestamp">02:44
+                            <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8" />
+                    <span class="songName">Love Wins All</span>
+                    <span class="songlistplay"><span class="timestamp">05:22
+                            <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="9" />
+                    <span class="songName">Baby</span>
+                    <span class="songlistplay"><span class="timestamp">03:33
+                            <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="10" />
+                    <span class="songName">Tera Bina</span>
+                    <span class="songlistplay"><span class="timestamp">05:08
+                            <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" />
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif" /><span id="masterSongName">Jhim Jhimaune Aankha
+            </span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</body>
+</html>
